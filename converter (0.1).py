@@ -7,7 +7,7 @@ exchange_rates = [
     {"currency": "EUR", "rate": 0.85},
     {"currency": "GBP", "rate": 0.75},
     {"currency": "USD", "rate": 0.60},]
-##### MCODE SHAMELESSLY STOLEN FROM MR GIBBS END #####
+##### CODE SHAMELESSLY STOLEN FROM MR GIBBS END #####
 
 IntCurrency = input("Please choose the initial currency, using a three-letter ISO 4217 currency code: ")
 
@@ -19,4 +19,3 @@ else: print("Please try a different country code. At the moment, this converter 
 
 TargCurrency = input("Please choose the target currency, using a three-letter ISO 4217 currency code: ")
 
-if TargCurrency == "EUR":
