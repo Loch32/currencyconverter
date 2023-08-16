@@ -10,6 +10,6 @@ else: print("Please try a different country code. At the moment, this converter 
 
 TargCurrency = input("Please choose the target currency, using a three-letter ISO 4217 currency code: ")
 if TargCurrency == "GBP":
-      result = IntCurAmount * 0.65
+      result = IntCurAmount * 0.5
       print(IntCurAmount, IntCurrency, "is equal to", result, TargCurrency)
 else: print("Please try again.")
