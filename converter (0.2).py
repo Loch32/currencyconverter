@@ -2,8 +2,6 @@
 
 IntCurrency = input("Please choose the initial currency, using a three-letter ISO 4217 currency code. If you are unsure of what code your currency is, type 'help': ")
 
-#ensuring that there's no confusion on how to format the country code
-
 if IntCurrency == "AUD":
         IntCurAmount = int(input("Please enter the initial currency amount as a decimal: "))
 elif IntCurrency == "help":
@@ -14,4 +12,4 @@ TargCurrency = input("Please choose the target currency, using a three-letter IS
 if TargCurrency == "GBP":
       result = IntCurAmount * 0.65
       print(IntCurAmount, IntCurrency, "is equal to", result, TargCurrency)
-else: print("Please try again.")   
+else: print("Please try again.")
