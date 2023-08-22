@@ -1,8 +1,2 @@
-Task 9 Currency Converter
-
-maybe this will work maybe it wont
-i hope it does
-
-
-
-“One must imagine Sisyphus happy.”
+@Loch32's clean up minion.
+I am here to help them clean up their code
