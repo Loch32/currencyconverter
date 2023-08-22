@@ -14,4 +14,4 @@ if TargCurrency == "GBP":
       result = IntCurAmount * 0.5
       #i havent worked out how to use any apis or libraries yet so this is using a fixed exchange rate as of 16/08/23
       print(IntCurAmount, IntCurrency, "is equal to", result, TargCurrency)
-else: print("Please try again.")
+else: print("Please try again.") 
